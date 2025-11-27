@@ -32,7 +32,7 @@ This dashboard supports data-driven decision-making for supply chain, marketing,
 - Step 11 : Crated a table for the view of "Categories", "Sub-Categories", "Total Profit" and " Total Sales".
 - step 12 : Added a Guage to get the Targeted profit and Actual profit, Targated Profit measure was added to this Guage in Target valule section.
 - step 13 : Line Chart was added to get the Total sales by region and year.
-- step 14 : Funnel chart to get the insights on sales by sub-categories.
+- step 14 : Funnel chart to get the insights on sales by ship mode.
 - step 15 : Three donut charts were added to get the details on Total sales by region, Count of categories by region and Count of segment by region respectively.
 
 
@@ -80,124 +80,82 @@ c) Visualizations in the Dashboard
 
 1] Table – Total Profit and Total Sales by Sub-Category and Category
 
-A detailed profitability and revenue breakdown:
-
-Sub-Category	  Category	Total Profit	Total Sales
-Accessories	    Technology	41,936.64	775
-Appliances	    Office Supplies	18,138.01	466
-Art	Office      Supplies	6,527.79	796
-Binders	        Office Supplies	30,221.76	1523
-Bookcases	      Furniture	-3,472.56	228
-Chairs	        Furniture	26,590.17	617
-Copiers	        Technology	55,617.82	68
-Envelopes	      Office Supplies	6,964.18	254
-Fasteners	      Office Supplies	949.52	217
-Furnishings	    Furniture	13,059.14	957
-Labels	        Office Supplies	5,546.25	364
-Machines	      Technology	3,384.76	115
-Paper	          Office Supplies	34,053.57	1370
-Phones	        Technology	44,515.73	889
-Storage	Office Supplies	24,578.89	905
-Supplies	Office Supplies	3,023.24	47
-Art	Office Supplies	6,527.79	27
-Envelopes	Office Supplies	6,964.18	16
-Labels	Office Supplies	5,546.25	12
-Fasteners	Office Supplies	949.52	3
-Grand Totals
-
+- Copiers with the highest profit : 55617.82
+- Tables with the most loss : 17725.48
+  
 Total Profit: 286,397.02
 
 Total Sales: 9,994
 
-2️⃣ Line Chart – Total Sales by Year and Region
+2] Line Chart – Total Sales by Year and Region
 
-Years: 2014, 2015, 2016, 2017
-Regions: Central, East, South, West
+- Years: 2014, 2015, 2016, 2017
+- Regions: Central, East, South, West
 
-Insight:
 Sales increased steadily from 2014–2017, with East and West showing the steepest upward trends.
 
-3️⃣ Donut Chart – Total Sales by Region
-Region	Sales	Share
-West	725K	32%
-South	679K	30%
-Central	501K	22%
-East	392K	17%
+3] Donut Chart – Total Sales by Region
 
-Insight:
+- West : 725K (32%)
+- South : 679K (30%)
+- Central : 501K (22%)
+- East : 392K (17%)
+
 The West region contributes the most to total sales.
 
-4️⃣ Bar Chart – Total Sales by Sub-Category
+4] Bar Chart – Total Sales by Ship mode
 
-Ranked sales performance:
+- Standard class : 6k
+- Second class : 2k
+- First class : 2k
+- Same day : 1k
 
-Sub-Category	Sales
-Phones	286K
-Chairs	224K
-Storage	207K
-Tables	203K
-Binders	203K
-Machines	189K
-Accessories	167K
-Copiers	150K
-Bookcases	115K
-Appliances	108K
-Furnishings	92K
-Paper	78K
-Supplies	47K
-Art	27K
-Envelopes	16K
-Labels	12K
-Fasteners	3K
-5️⃣ Donut Chart – Count of Category by Region
+The Standard class shipment mode has the most sales.
 
-West: 3K (32%)
+5] Donut Chart – Count of Category by Region
 
-South: 3K (28%)
+- West : 3K (32%)
+- South : 3K (28%)
+- Central: 2K (23%)
+- East: 2K (16%)
 
-Central: 2K (23%)
+The West region contributes the most.
 
-East: 2K (16%)
-
-6️⃣ Donut Chart – Count of Segment by Region
+6] Donut Chart – Count of Segment by Region
 
 Similar distribution pattern:
 
-West: 32%
+- West : 32%
+- South : 28%
+- Central : 23%
+- East : 16%
 
-South: 28%
+The West region contributes the most.
 
-Central: 23%
+7] Gauge Chart – Total Profit vs Targeted Profit
 
-East: 16%
-
-7️⃣ Gauge Chart – Total Profit vs Targeted Profit
-
-Current Profit: 286.40K
-
-Target: approx. 572.79K
+- Current Profit : 286.40K
+- Target: approx : 572.79K
 
 Gauge visual shows progress toward profit goal.
 
-🌍 Key Insights
-✔ Regional Performance
+d) Key Insights
 
-West region leads in both total sales and product distribution.
+1] Regional Performance
 
-East and Central contribute significantly but lag behind.
+- West region leads in both total sales and product distribution.
+- East and Central contribute significantly but lag behind.
 
-✔ Sub-Category Analysis
+2] Sub-Category Analysis
 
-Highest performers: Phones, Chairs, Storage, Tables
+- Highest performers: Phones, Chairs, Storage, Tables.
+- Low performers: Fasteners, Labels, Envelopes, Art.
 
-Low performers: Fasteners, Labels, Envelopes, Art
+3] Profitability Trends
 
-✔ Profitability Trends
+- Copiers, Chairs, Accessories show strong profit margins.
+- Bookcases show negative profit, indicating loss potential.
 
-Copiers, Chairs, Accessories show strong profit margins.
+4] Yearly Trends
 
-Bookcases show negative profit, indicating loss potential.
-
-✔ Yearly Trends
-
-Steady rise from 2014–2017 across all regions, confirming consistent business growth.
+- Steady rise from 2014–2017 across all regions, confirming consistent business growth.
