@@ -40,7 +40,7 @@ This dashboard supports data-driven decision-making for supply chain, marketing,
   # Report Snapshot (Power BI DESKTOP)
 
  
-![Dashboard_upload](https://github.com/rahulgowda2003/Netflix-Sample-Data-Dashboard/blob/main/Netflix%20Dashboard%20Screenshot.png)
+![Dashboard_upload](https://github.com/rahulgowda2003/Sample-Super-Store-Dashboard-Report/blob/main/Sample%20Super%20Store%20Report%20Screenshot.png)
 
 # Insights
 
